@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  cyberrakshak-backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: cyberrakshak_ai
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - CYBERRAKSHAK_DB_PATH=/app/cyberrakshak.db
+      - ENVIRONMENT=production
+    volumes:
+      - ./data:/app/data
+      - cyberrakshak_db_data:/app/database_volume
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  cyberrakshak_db_data:

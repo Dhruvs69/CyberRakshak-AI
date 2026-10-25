@@ -1,0 +1,38 @@
+[
+  {
+    "label": "Legitimate Government Cybercrime Portal",
+    "url": "https://www.cybercrime.gov.in/Webform/Index.aspx",
+    "type": "legitimate",
+    "description": "Authentic official Indian government cybercrime reporting portal"
+  },
+  {
+    "label": "Legitimate Tech Platform",
+    "url": "https://github.com/explore",
+    "type": "legitimate",
+    "description": "Standard HTTPS developer platform"
+  },
+  {
+    "label": "Direct IP-Address Banking Login Trap",
+    "url": "http://185.220.101.5:8080/secure-banking/login",
+    "type": "phishing",
+    "description": "Numerical IP address destination with suspicious port and banking login path"
+  },
+  {
+    "label": "Deceptive Brand Typosquatting",
+    "url": "http://paypa1-security-verification.xyz/account/login",
+    "type": "phishing",
+    "description": "High-abuse .xyz TLD with misspelled brand paypa1 and login harvest path"
+  },
+  {
+    "label": "Fake KYC Update Portal",
+    "url": "http://sbi-card-kyc-update.com/pan-aadhaar-verify",
+    "type": "phishing",
+    "description": "Subdomain and path designed to mimic banking KYC verification"
+  },
+  {
+    "label": "Obfuscated URL Shortener Link",
+    "url": "https://bit.ly/3xFakeBankOffer",
+    "type": "suspicious",
+    "description": "Masked destination concealing final URL"
+  }
+]

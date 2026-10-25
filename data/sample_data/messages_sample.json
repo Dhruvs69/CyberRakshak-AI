@@ -1,0 +1,44 @@
+[
+  {
+    "label": "Fake Bank KYC Deactivation Scam",
+    "type": "phishing_sms",
+    "text": "Dear customer, your State Bank of India account will be blocked today due to pending KYC. Click http://sbi-kyc-verify.xyz immediately to update your PAN and Aadhaar.",
+    "risk": "High Risk"
+  },
+  {
+    "label": "Urgent Electricity Power Disconnection Alert",
+    "type": "urgency_scam",
+    "text": "Electricity Alert: Your power will be disconnected tonight at 9:30 PM because previous month bill was not updated. Immediately call electricity officer at 9876543210.",
+    "risk": "High Risk"
+  },
+  {
+    "label": "KBC Lucky Draw Lottery Winner",
+    "type": "lottery_fraud",
+    "text": "Congratulations! Your mobile number won Rs 25,00,000 in Kaun Banega Crorepati Lottery Draw. Send your name, bank account, and Rs 500 processing fee on WhatsApp 9123456789.",
+    "risk": "High Risk"
+  },
+  {
+    "label": "Fake PhonePe UPI Cashback PIN Trap",
+    "type": "upi_scam",
+    "text": "Cashback of Rs 4,999 has been approved for your PhonePe account. Open this link and enter your UPI PIN to claim money into your bank account immediately.",
+    "risk": "High Risk"
+  },
+  {
+    "label": "Remote Screen Sharing App Trap",
+    "type": "remote_access_scam",
+    "text": "URGENT: Install AnyDesk app on your mobile and share the 9-digit code for remote technical support from Bank manager to unlock your debit card.",
+    "risk": "High Risk"
+  },
+  {
+    "label": "Legitimate Courier Delivery Notification",
+    "type": "legitimate",
+    "text": "Your order #78291 has been dispatched via BlueDart. Track package at https://www.amazon.in/orders. Delivery OTP is 4821.",
+    "risk": "Low Risk"
+  },
+  {
+    "label": "Legitimate Bank Transaction Alert",
+    "type": "legitimate",
+    "text": "Dear Customer, your account XX1209 has been credited with INR 5,200.00 on 24-Oct-2026. Avail Bal: INR 34,210.00 - State Bank of India.",
+    "risk": "Low Risk"
+  }
+]
