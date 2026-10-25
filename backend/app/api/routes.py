@@ -600,7 +600,8 @@ def copilot_chat(payload: Dict[str, Any]):
         if host and grade:
             prefix = f"**Current Target**: `{host}` (Grade: `{grade}`)\n\n"
             
-    return {"reply": prefix + reply_obj.get("answer", "Security engine operating at full readiness.")}
+    reply_text = reply_obj.get("response") or reply_obj.get("answer") or "Security engine operating at full readiness."
+    return {"reply": prefix + reply_text}
 
 # --- 15. SECOPS SUITE & TELEMETRY COMPATIBILITY ---
 @router.get("/v1/status")
